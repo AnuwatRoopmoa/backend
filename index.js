@@ -4,6 +4,7 @@ import fs from 'fs';
 const hostname = 'https://backend06.onrender.com';
 const port = 8080;
 
+const url = 'https://backend06.onrender.com'
 let status = { red: 0, blue: 0 };
 
 // Read the status from the file during server startup
@@ -86,6 +87,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+server.listen(url, () => {
+  console.log(`Server running at http://${hostname}:${port}/ or ${url}`);
 });
