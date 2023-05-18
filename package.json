@@ -1,0 +1,21 @@
+{
+  "name": "labo06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "nodemon": "^2.0.22",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    ".node-version": "18.16.0"
+  }
+}
