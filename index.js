@@ -1,7 +1,7 @@
 import http from 'http';
 import fs from 'fs';
 
-const hostname = 'localhost';
+const hostname = 'backend06.onrender.com';
 const port = 3000;
 
 let status = { red: 0, blue: 0 };
