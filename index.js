@@ -2,7 +2,7 @@ import http from 'http';
 import fs from 'fs';
 
 const hostname = 'localhost';
-const port = 8080;
+const port = 3000;
 
 let status = { red: 0, blue: 0 };
 
@@ -87,5 +87,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+  console.log(`Server running at http://${hostname}:${port}/ or on https://backend06.onrender.com`);
 });
